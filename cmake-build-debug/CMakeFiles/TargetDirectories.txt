@@ -1,6 +1,7 @@
 C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/Pointers.dir
 C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir
 C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/temp.dir
+C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/stringpointers.dir
 C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/ifstream.dir
 C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/parameters.dir
 C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug
 all: CMakeFiles/Pointers.dir/all
 all: CMakeFiles/CppReviews.dir/all
 all: CMakeFiles/temp.dir/all
+all: CMakeFiles/stringpointers.dir/all
 all: CMakeFiles/ifstream.dir/all
 all: CMakeFiles/parameters.dir/all
 
@@ -64,6 +65,7 @@ all: CMakeFiles/parameters.dir/all
 clean: CMakeFiles/Pointers.dir/clean
 clean: CMakeFiles/CppReviews.dir/clean
 clean: CMakeFiles/temp.dir/clean
+clean: CMakeFiles/stringpointers.dir/clean
 clean: CMakeFiles/ifstream.dir/clean
 clean: CMakeFiles/parameters.dir/clean
 
@@ -81,7 +83,7 @@ preinstall:
 CMakeFiles/Pointers.dir/all:
 	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/depend
 	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Pointers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target Pointers"
 .PHONY : CMakeFiles/Pointers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -108,12 +110,12 @@ CMakeFiles/Pointers.dir/clean:
 CMakeFiles/CppReviews.dir/all:
 	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/depend
 	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target CppReviews"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target CppReviews"
 .PHONY : CMakeFiles/CppReviews.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CppReviews.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CppReviews.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CppReviews.dir/rule
@@ -135,7 +137,7 @@ CMakeFiles/CppReviews.dir/clean:
 CMakeFiles/temp.dir/all:
 	$(MAKE) -f CMakeFiles\temp.dir\build.make CMakeFiles/temp.dir/depend
 	$(MAKE) -f CMakeFiles\temp.dir\build.make CMakeFiles/temp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target temp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target temp"
 .PHONY : CMakeFiles/temp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,13 +158,40 @@ CMakeFiles/temp.dir/clean:
 .PHONY : CMakeFiles/temp.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/stringpointers.dir
+
+# All Build rule for target.
+CMakeFiles/stringpointers.dir/all:
+	$(MAKE) -f CMakeFiles\stringpointers.dir\build.make CMakeFiles/stringpointers.dir/depend
+	$(MAKE) -f CMakeFiles\stringpointers.dir\build.make CMakeFiles/stringpointers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target stringpointers"
+.PHONY : CMakeFiles/stringpointers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stringpointers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/stringpointers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/stringpointers.dir/rule
+
+# Convenience name for target.
+stringpointers: CMakeFiles/stringpointers.dir/rule
+
+.PHONY : stringpointers
+
+# clean rule for target.
+CMakeFiles/stringpointers.dir/clean:
+	$(MAKE) -f CMakeFiles\stringpointers.dir\build.make CMakeFiles/stringpointers.dir/clean
+.PHONY : CMakeFiles/stringpointers.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ifstream.dir
 
 # All Build rule for target.
 CMakeFiles/ifstream.dir/all:
 	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/depend
 	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ifstream"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target ifstream"
 .PHONY : CMakeFiles/ifstream.dir/all
 
 # Build rule for subdir invocation for target.
@@ -189,7 +218,7 @@ CMakeFiles/ifstream.dir/clean:
 CMakeFiles/parameters.dir/all:
 	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/depend
 	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target parameters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target parameters"
 .PHONY : CMakeFiles/parameters.dir/all
 
 # Build rule for subdir invocation for target.

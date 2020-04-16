@@ -149,6 +149,19 @@ temp/fast:
 .PHONY : temp/fast
 
 #=============================================================================
+# Target rules for targets named stringpointers
+
+# Build rule for target.
+stringpointers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 stringpointers
+.PHONY : stringpointers
+
+# fast build rule for target.
+stringpointers/fast:
+	$(MAKE) -f CMakeFiles\stringpointers.dir\build.make CMakeFiles/stringpointers.dir/build
+.PHONY : stringpointers/fast
+
+#=============================================================================
 # Target rules for targets named ifstream
 
 # Build rule for target.
@@ -264,6 +277,36 @@ parameters.cpp.s:
 	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/parameters.cpp.s
 .PHONY : parameters.cpp.s
 
+stringpointers.obj: stringpointers.cpp.obj
+
+.PHONY : stringpointers.obj
+
+# target to build an object file
+stringpointers.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/stringpointers.cpp.obj
+	$(MAKE) -f CMakeFiles\stringpointers.dir\build.make CMakeFiles/stringpointers.dir/stringpointers.cpp.obj
+.PHONY : stringpointers.cpp.obj
+
+stringpointers.i: stringpointers.cpp.i
+
+.PHONY : stringpointers.i
+
+# target to preprocess a source file
+stringpointers.cpp.i:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/stringpointers.cpp.i
+	$(MAKE) -f CMakeFiles\stringpointers.dir\build.make CMakeFiles/stringpointers.dir/stringpointers.cpp.i
+.PHONY : stringpointers.cpp.i
+
+stringpointers.s: stringpointers.cpp.s
+
+.PHONY : stringpointers.s
+
+# target to generate assembly for a file
+stringpointers.cpp.s:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/stringpointers.cpp.s
+	$(MAKE) -f CMakeFiles\stringpointers.dir\build.make CMakeFiles/stringpointers.dir/stringpointers.cpp.s
+.PHONY : stringpointers.cpp.s
+
 temp.obj: temp.cpp.obj
 
 .PHONY : temp.obj
@@ -300,6 +343,7 @@ help:
 	@echo ... Pointers
 	@echo ... CppReviews
 	@echo ... temp
+	@echo ... stringpointers
 	@echo ... ifstream
 	@echo ... parameters
 	@echo ... edit_cache
@@ -313,6 +357,9 @@ help:
 	@echo ... parameters.obj
 	@echo ... parameters.i
 	@echo ... parameters.s
+	@echo ... stringpointers.obj
+	@echo ... stringpointers.i
+	@echo ... stringpointers.s
 	@echo ... temp.obj
 	@echo ... temp.i
 	@echo ... temp.s

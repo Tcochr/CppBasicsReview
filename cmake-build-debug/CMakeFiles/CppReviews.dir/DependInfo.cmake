@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Cochr/CLionProjects/CppReviews/Pointers.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/Pointers.cpp.obj"
   "C:/Users/Cochr/CLionProjects/CppReviews/ifstream.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
   "C:/Users/Cochr/CLionProjects/CppReviews/parameters.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/parameters.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppReviews/stringpointers.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/stringpointers.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
