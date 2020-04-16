@@ -52,6 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Pointers.dir/all
 all: CMakeFiles/CppReviews.dir/all
 all: CMakeFiles/temp.dir/all
 all: CMakeFiles/ifstream.dir/all
@@ -60,6 +61,7 @@ all: CMakeFiles/parameters.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Pointers.dir/clean
 clean: CMakeFiles/CppReviews.dir/clean
 clean: CMakeFiles/temp.dir/clean
 clean: CMakeFiles/ifstream.dir/clean
@@ -73,18 +75,45 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/Pointers.dir
+
+# All Build rule for target.
+CMakeFiles/Pointers.dir/all:
+	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/depend
+	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Pointers"
+.PHONY : CMakeFiles/Pointers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Pointers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Pointers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Pointers.dir/rule
+
+# Convenience name for target.
+Pointers: CMakeFiles/Pointers.dir/rule
+
+.PHONY : Pointers
+
+# clean rule for target.
+CMakeFiles/Pointers.dir/clean:
+	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/clean
+.PHONY : CMakeFiles/Pointers.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/CppReviews.dir
 
 # All Build rule for target.
 CMakeFiles/CppReviews.dir/all:
 	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/depend
 	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target CppReviews"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target CppReviews"
 .PHONY : CMakeFiles/CppReviews.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CppReviews.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CppReviews.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CppReviews.dir/rule
@@ -106,7 +135,7 @@ CMakeFiles/CppReviews.dir/clean:
 CMakeFiles/temp.dir/all:
 	$(MAKE) -f CMakeFiles\temp.dir\build.make CMakeFiles/temp.dir/depend
 	$(MAKE) -f CMakeFiles\temp.dir\build.make CMakeFiles/temp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target temp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target temp"
 .PHONY : CMakeFiles/temp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -133,7 +162,7 @@ CMakeFiles/temp.dir/clean:
 CMakeFiles/ifstream.dir/all:
 	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/depend
 	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target ifstream"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ifstream"
 .PHONY : CMakeFiles/ifstream.dir/all
 
 # Build rule for subdir invocation for target.
@@ -160,7 +189,7 @@ CMakeFiles/ifstream.dir/clean:
 CMakeFiles/parameters.dir/all:
 	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/depend
 	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target parameters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target parameters"
 .PHONY : CMakeFiles/parameters.dir/all
 
 # Build rule for subdir invocation for target.

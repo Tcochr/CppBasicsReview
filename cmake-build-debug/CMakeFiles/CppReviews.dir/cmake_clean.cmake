@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CppReviews.dir/Pointers.cpp.obj"
   "CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
   "CMakeFiles/CppReviews.dir/parameters.cpp.obj"
   "CppReviews.exe"

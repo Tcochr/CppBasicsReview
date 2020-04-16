@@ -19,7 +19,7 @@ int main(){
     cout << "m: " << m << " n: " << n << endl;
     c(m,n);
     cout << "m: " << m << " n: " << n << endl;
-    
+
     return 0;
 }
 

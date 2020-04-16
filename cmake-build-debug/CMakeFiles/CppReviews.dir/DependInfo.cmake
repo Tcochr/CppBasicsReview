@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Cochr/CLionProjects/CppReviews/Pointers.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/Pointers.cpp.obj"
   "C:/Users/Cochr/CLionProjects/CppReviews/ifstream.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
   "C:/Users/Cochr/CLionProjects/CppReviews/parameters.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/parameters.cpp.obj"
   )

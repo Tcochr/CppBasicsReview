@@ -53,6 +53,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Pointers.dir/DependInfo.cmake"
   "CMakeFiles/CppReviews.dir/DependInfo.cmake"
   "CMakeFiles/temp.dir/DependInfo.cmake"
   "CMakeFiles/ifstream.dir/DependInfo.cmake"

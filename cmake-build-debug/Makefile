@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Pointers
+
+# Build rule for target.
+Pointers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Pointers
+.PHONY : Pointers
+
+# fast build rule for target.
+Pointers/fast:
+	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
+.PHONY : Pointers/fast
+
+#=============================================================================
 # Target rules for targets named CppReviews
 
 # Build rule for target.
@@ -160,6 +173,36 @@ parameters: cmake_check_build_system
 parameters/fast:
 	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/build
 .PHONY : parameters/fast
+
+Pointers.obj: Pointers.cpp.obj
+
+.PHONY : Pointers.obj
+
+# target to build an object file
+Pointers.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Pointers.cpp.obj
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/Pointers.cpp.obj
+.PHONY : Pointers.cpp.obj
+
+Pointers.i: Pointers.cpp.i
+
+.PHONY : Pointers.i
+
+# target to preprocess a source file
+Pointers.cpp.i:
+	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Pointers.cpp.i
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/Pointers.cpp.i
+.PHONY : Pointers.cpp.i
+
+Pointers.s: Pointers.cpp.s
+
+.PHONY : Pointers.s
+
+# target to generate assembly for a file
+Pointers.cpp.s:
+	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Pointers.cpp.s
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/Pointers.cpp.s
+.PHONY : Pointers.cpp.s
 
 ifstream.obj: ifstream.cpp.obj
 
@@ -254,12 +297,16 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Pointers
 	@echo ... CppReviews
 	@echo ... temp
 	@echo ... ifstream
 	@echo ... parameters
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Pointers.obj
+	@echo ... Pointers.i
+	@echo ... Pointers.s
 	@echo ... ifstream.obj
 	@echo ... ifstream.i
 	@echo ... ifstream.s
