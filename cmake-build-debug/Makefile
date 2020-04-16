@@ -200,6 +200,19 @@ parameters/fast:
 	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/build
 .PHONY : parameters/fast
 
+#=============================================================================
+# Target rules for targets named ctype
+
+# Build rule for target.
+ctype: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ctype
+.PHONY : ctype
+
+# fast build rule for target.
+ctype/fast:
+	$(MAKE) -f CMakeFiles\ctype.dir\build.make CMakeFiles/ctype.dir/build
+.PHONY : ctype/fast
+
 Pointers.obj: Pointers.cpp.obj
 
 .PHONY : Pointers.obj
@@ -259,6 +272,36 @@ arrayreview.cpp.s:
 	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/arrayreview.cpp.s
 	$(MAKE) -f CMakeFiles\arrayreview.dir\build.make CMakeFiles/arrayreview.dir/arrayreview.cpp.s
 .PHONY : arrayreview.cpp.s
+
+ctype.obj: ctype.cpp.obj
+
+.PHONY : ctype.obj
+
+# target to build an object file
+ctype.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/ctype.cpp.obj
+	$(MAKE) -f CMakeFiles\ctype.dir\build.make CMakeFiles/ctype.dir/ctype.cpp.obj
+.PHONY : ctype.cpp.obj
+
+ctype.i: ctype.cpp.i
+
+.PHONY : ctype.i
+
+# target to preprocess a source file
+ctype.cpp.i:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/ctype.cpp.i
+	$(MAKE) -f CMakeFiles\ctype.dir\build.make CMakeFiles/ctype.dir/ctype.cpp.i
+.PHONY : ctype.cpp.i
+
+ctype.s: ctype.cpp.s
+
+.PHONY : ctype.s
+
+# target to generate assembly for a file
+ctype.cpp.s:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/ctype.cpp.s
+	$(MAKE) -f CMakeFiles\ctype.dir\build.make CMakeFiles/ctype.dir/ctype.cpp.s
+.PHONY : ctype.cpp.s
 
 ifstream.obj: ifstream.cpp.obj
 
@@ -390,6 +433,7 @@ help:
 	@echo ... stringpointers
 	@echo ... ifstream
 	@echo ... parameters
+	@echo ... ctype
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Pointers.obj
@@ -398,6 +442,9 @@ help:
 	@echo ... arrayreview.obj
 	@echo ... arrayreview.i
 	@echo ... arrayreview.s
+	@echo ... ctype.obj
+	@echo ... ctype.i
+	@echo ... ctype.s
 	@echo ... ifstream.obj
 	@echo ... ifstream.i
 	@echo ... ifstream.s

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CppReviews.dir/Pointers.cpp.obj"
   "CMakeFiles/CppReviews.dir/arrayreview.cpp.obj"
+  "CMakeFiles/CppReviews.dir/ctype.cpp.obj"
   "CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
   "CMakeFiles/CppReviews.dir/parameters.cpp.obj"
   "CMakeFiles/CppReviews.dir/stringpointers.cpp.obj"
