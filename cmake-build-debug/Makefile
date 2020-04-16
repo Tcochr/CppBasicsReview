@@ -149,6 +149,19 @@ temp/fast:
 .PHONY : temp/fast
 
 #=============================================================================
+# Target rules for targets named arrayreview
+
+# Build rule for target.
+arrayreview: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 arrayreview
+.PHONY : arrayreview
+
+# fast build rule for target.
+arrayreview/fast:
+	$(MAKE) -f CMakeFiles\arrayreview.dir\build.make CMakeFiles/arrayreview.dir/build
+.PHONY : arrayreview/fast
+
+#=============================================================================
 # Target rules for targets named stringpointers
 
 # Build rule for target.
@@ -216,6 +229,36 @@ Pointers.cpp.s:
 	$(MAKE) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Pointers.cpp.s
 	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/Pointers.cpp.s
 .PHONY : Pointers.cpp.s
+
+arrayreview.obj: arrayreview.cpp.obj
+
+.PHONY : arrayreview.obj
+
+# target to build an object file
+arrayreview.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/arrayreview.cpp.obj
+	$(MAKE) -f CMakeFiles\arrayreview.dir\build.make CMakeFiles/arrayreview.dir/arrayreview.cpp.obj
+.PHONY : arrayreview.cpp.obj
+
+arrayreview.i: arrayreview.cpp.i
+
+.PHONY : arrayreview.i
+
+# target to preprocess a source file
+arrayreview.cpp.i:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/arrayreview.cpp.i
+	$(MAKE) -f CMakeFiles\arrayreview.dir\build.make CMakeFiles/arrayreview.dir/arrayreview.cpp.i
+.PHONY : arrayreview.cpp.i
+
+arrayreview.s: arrayreview.cpp.s
+
+.PHONY : arrayreview.s
+
+# target to generate assembly for a file
+arrayreview.cpp.s:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/arrayreview.cpp.s
+	$(MAKE) -f CMakeFiles\arrayreview.dir\build.make CMakeFiles/arrayreview.dir/arrayreview.cpp.s
+.PHONY : arrayreview.cpp.s
 
 ifstream.obj: ifstream.cpp.obj
 
@@ -343,6 +386,7 @@ help:
 	@echo ... Pointers
 	@echo ... CppReviews
 	@echo ... temp
+	@echo ... arrayreview
 	@echo ... stringpointers
 	@echo ... ifstream
 	@echo ... parameters
@@ -351,6 +395,9 @@ help:
 	@echo ... Pointers.obj
 	@echo ... Pointers.i
 	@echo ... Pointers.s
+	@echo ... arrayreview.obj
+	@echo ... arrayreview.i
+	@echo ... arrayreview.s
 	@echo ... ifstream.obj
 	@echo ... ifstream.i
 	@echo ... ifstream.s
