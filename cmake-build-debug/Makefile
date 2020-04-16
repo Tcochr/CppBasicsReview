@@ -135,6 +135,49 @@ temp/fast:
 	$(MAKE) -f CMakeFiles\temp.dir\build.make CMakeFiles/temp.dir/build
 .PHONY : temp/fast
 
+#=============================================================================
+# Target rules for targets named ifstream
+
+# Build rule for target.
+ifstream: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ifstream
+.PHONY : ifstream
+
+# fast build rule for target.
+ifstream/fast:
+	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/build
+.PHONY : ifstream/fast
+
+ifstream.obj: ifstream.cpp.obj
+
+.PHONY : ifstream.obj
+
+# target to build an object file
+ifstream.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/ifstream.cpp.obj
+	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/ifstream.cpp.obj
+.PHONY : ifstream.cpp.obj
+
+ifstream.i: ifstream.cpp.i
+
+.PHONY : ifstream.i
+
+# target to preprocess a source file
+ifstream.cpp.i:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/ifstream.cpp.i
+	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/ifstream.cpp.i
+.PHONY : ifstream.cpp.i
+
+ifstream.s: ifstream.cpp.s
+
+.PHONY : ifstream.s
+
+# target to generate assembly for a file
+ifstream.cpp.s:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/ifstream.cpp.s
+	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/ifstream.cpp.s
+.PHONY : ifstream.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -197,8 +240,12 @@ help:
 	@echo ... depend
 	@echo ... CppReviews
 	@echo ... temp
+	@echo ... ifstream
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ifstream.obj
+	@echo ... ifstream.i
+	@echo ... ifstream.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

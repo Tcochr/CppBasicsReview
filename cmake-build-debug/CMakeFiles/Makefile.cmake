@@ -55,4 +55,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CppReviews.dir/DependInfo.cmake"
   "CMakeFiles/temp.dir/DependInfo.cmake"
+  "CMakeFiles/ifstream.dir/DependInfo.cmake"
   )
