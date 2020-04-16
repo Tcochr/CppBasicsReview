@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Cochr/CLionProjects/CppReviews/parameters.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/parameters.dir/parameters.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppBasicsReviews/parameters.cpp" "C:/Users/Cochr/CLionProjects/CppBasicsReviews/cmake-build-debug/CMakeFiles/parameters.dir/parameters.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

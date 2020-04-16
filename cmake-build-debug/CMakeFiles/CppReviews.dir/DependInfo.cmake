@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Cochr/CLionProjects/CppReviews/Pointers.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/Pointers.cpp.obj"
-  "C:/Users/Cochr/CLionProjects/CppReviews/arrayreview.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/arrayreview.cpp.obj"
-  "C:/Users/Cochr/CLionProjects/CppReviews/ctype.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/ctype.cpp.obj"
-  "C:/Users/Cochr/CLionProjects/CppReviews/ifstream.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
-  "C:/Users/Cochr/CLionProjects/CppReviews/parameters.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/parameters.cpp.obj"
-  "C:/Users/Cochr/CLionProjects/CppReviews/stringpointers.cpp" "C:/Users/Cochr/CLionProjects/CppReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/stringpointers.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppBasicsReviews/Pointers.cpp" "C:/Users/Cochr/CLionProjects/CppBasicsReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/Pointers.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppBasicsReviews/arrayreview.cpp" "C:/Users/Cochr/CLionProjects/CppBasicsReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/arrayreview.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppBasicsReviews/ctype.cpp" "C:/Users/Cochr/CLionProjects/CppBasicsReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/ctype.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppBasicsReviews/ifstream.cpp" "C:/Users/Cochr/CLionProjects/CppBasicsReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppBasicsReviews/parameters.cpp" "C:/Users/Cochr/CLionProjects/CppBasicsReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/parameters.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppBasicsReviews/stringpointers.cpp" "C:/Users/Cochr/CLionProjects/CppBasicsReviews/cmake-build-debug/CMakeFiles/CppReviews.dir/stringpointers.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

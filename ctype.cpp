@@ -36,6 +36,6 @@ int main(){
     strncat (output,s,4);//take 4 chars from the beginning of s -> output
     strncat (output,t,5);//take 5 chars from beginning of t -> output
     strncat (output,u,6);//take 6 chars from beginning of u -> output
-    cout << output << endl; 
+    cout << output << endl;
     return 0;
 }
