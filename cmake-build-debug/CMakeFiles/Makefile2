@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug
 all: CMakeFiles/CppReviews.dir/all
 all: CMakeFiles/temp.dir/all
 all: CMakeFiles/ifstream.dir/all
+all: CMakeFiles/parameters.dir/all
 
 .PHONY : all
 
@@ -62,6 +63,7 @@ all: CMakeFiles/ifstream.dir/all
 clean: CMakeFiles/CppReviews.dir/clean
 clean: CMakeFiles/temp.dir/clean
 clean: CMakeFiles/ifstream.dir/clean
+clean: CMakeFiles/parameters.dir/clean
 
 .PHONY : clean
 
@@ -104,7 +106,7 @@ CMakeFiles/CppReviews.dir/clean:
 CMakeFiles/temp.dir/all:
 	$(MAKE) -f CMakeFiles\temp.dir\build.make CMakeFiles/temp.dir/depend
 	$(MAKE) -f CMakeFiles\temp.dir\build.make CMakeFiles/temp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target temp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target temp"
 .PHONY : CMakeFiles/temp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -150,6 +152,33 @@ ifstream: CMakeFiles/ifstream.dir/rule
 CMakeFiles/ifstream.dir/clean:
 	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/clean
 .PHONY : CMakeFiles/ifstream.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/parameters.dir
+
+# All Build rule for target.
+CMakeFiles/parameters.dir/all:
+	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/depend
+	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target parameters"
+.PHONY : CMakeFiles/parameters.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/parameters.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/parameters.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/parameters.dir/rule
+
+# Convenience name for target.
+parameters: CMakeFiles/parameters.dir/rule
+
+.PHONY : parameters
+
+# clean rule for target.
+CMakeFiles/parameters.dir/clean:
+	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/clean
+.PHONY : CMakeFiles/parameters.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

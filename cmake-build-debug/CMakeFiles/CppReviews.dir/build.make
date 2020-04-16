@@ -56,22 +56,9 @@ include CMakeFiles/CppReviews.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppReviews.dir/flags.make
 
-CMakeFiles/CppReviews.dir/main.cpp.obj: CMakeFiles/CppReviews.dir/flags.make
-CMakeFiles/CppReviews.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppReviews.dir/main.cpp.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppReviews.dir\main.cpp.obj -c C:\Users\Cochr\CLionProjects\CppReviews\main.cpp
-
-CMakeFiles/CppReviews.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppReviews.dir/main.cpp.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Cochr\CLionProjects\CppReviews\main.cpp > CMakeFiles\CppReviews.dir\main.cpp.i
-
-CMakeFiles/CppReviews.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppReviews.dir/main.cpp.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Cochr\CLionProjects\CppReviews\main.cpp -o CMakeFiles\CppReviews.dir\main.cpp.s
-
 CMakeFiles/CppReviews.dir/ifstream.cpp.obj: CMakeFiles/CppReviews.dir/flags.make
 CMakeFiles/CppReviews.dir/ifstream.cpp.obj: ../ifstream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
 	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppReviews.dir\ifstream.cpp.obj -c C:\Users\Cochr\CLionProjects\CppReviews\ifstream.cpp
 
 CMakeFiles/CppReviews.dir/ifstream.cpp.i: cmake_force
@@ -82,16 +69,29 @@ CMakeFiles/CppReviews.dir/ifstream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppReviews.dir/ifstream.cpp.s"
 	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Cochr\CLionProjects\CppReviews\ifstream.cpp -o CMakeFiles\CppReviews.dir\ifstream.cpp.s
 
+CMakeFiles/CppReviews.dir/parameters.cpp.obj: CMakeFiles/CppReviews.dir/flags.make
+CMakeFiles/CppReviews.dir/parameters.cpp.obj: ../parameters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Cochr\CLionProjects\CppReviews\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppReviews.dir/parameters.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppReviews.dir\parameters.cpp.obj -c C:\Users\Cochr\CLionProjects\CppReviews\parameters.cpp
+
+CMakeFiles/CppReviews.dir/parameters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppReviews.dir/parameters.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Cochr\CLionProjects\CppReviews\parameters.cpp > CMakeFiles\CppReviews.dir\parameters.cpp.i
+
+CMakeFiles/CppReviews.dir/parameters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppReviews.dir/parameters.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Cochr\CLionProjects\CppReviews\parameters.cpp -o CMakeFiles\CppReviews.dir\parameters.cpp.s
+
 # Object files for target CppReviews
 CppReviews_OBJECTS = \
-"CMakeFiles/CppReviews.dir/main.cpp.obj" \
-"CMakeFiles/CppReviews.dir/ifstream.cpp.obj"
+"CMakeFiles/CppReviews.dir/ifstream.cpp.obj" \
+"CMakeFiles/CppReviews.dir/parameters.cpp.obj"
 
 # External object files for target CppReviews
 CppReviews_EXTERNAL_OBJECTS =
 
-CppReviews.exe: CMakeFiles/CppReviews.dir/main.cpp.obj
 CppReviews.exe: CMakeFiles/CppReviews.dir/ifstream.cpp.obj
+CppReviews.exe: CMakeFiles/CppReviews.dir/parameters.cpp.obj
 CppReviews.exe: CMakeFiles/CppReviews.dir/build.make
 CppReviews.exe: CMakeFiles/CppReviews.dir/linklibs.rsp
 CppReviews.exe: CMakeFiles/CppReviews.dir/objects1.rsp

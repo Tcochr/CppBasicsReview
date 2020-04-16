@@ -148,6 +148,19 @@ ifstream/fast:
 	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/build
 .PHONY : ifstream/fast
 
+#=============================================================================
+# Target rules for targets named parameters
+
+# Build rule for target.
+parameters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 parameters
+.PHONY : parameters
+
+# fast build rule for target.
+parameters/fast:
+	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/build
+.PHONY : parameters/fast
+
 ifstream.obj: ifstream.cpp.obj
 
 .PHONY : ifstream.obj
@@ -178,32 +191,35 @@ ifstream.cpp.s:
 	$(MAKE) -f CMakeFiles\ifstream.dir\build.make CMakeFiles/ifstream.dir/ifstream.cpp.s
 .PHONY : ifstream.cpp.s
 
-main.obj: main.cpp.obj
+parameters.obj: parameters.cpp.obj
 
-.PHONY : main.obj
+.PHONY : parameters.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+parameters.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/parameters.cpp.obj
+	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/parameters.cpp.obj
+.PHONY : parameters.cpp.obj
 
-main.i: main.cpp.i
+parameters.i: parameters.cpp.i
 
-.PHONY : main.i
+.PHONY : parameters.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/main.cpp.i
-.PHONY : main.cpp.i
+parameters.cpp.i:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/parameters.cpp.i
+	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/parameters.cpp.i
+.PHONY : parameters.cpp.i
 
-main.s: main.cpp.s
+parameters.s: parameters.cpp.s
 
-.PHONY : main.s
+.PHONY : parameters.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/main.cpp.s
-.PHONY : main.cpp.s
+parameters.cpp.s:
+	$(MAKE) -f CMakeFiles\CppReviews.dir\build.make CMakeFiles/CppReviews.dir/parameters.cpp.s
+	$(MAKE) -f CMakeFiles\parameters.dir\build.make CMakeFiles/parameters.dir/parameters.cpp.s
+.PHONY : parameters.cpp.s
 
 temp.obj: temp.cpp.obj
 
@@ -241,14 +257,15 @@ help:
 	@echo ... CppReviews
 	@echo ... temp
 	@echo ... ifstream
+	@echo ... parameters
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ifstream.obj
 	@echo ... ifstream.i
 	@echo ... ifstream.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... parameters.obj
+	@echo ... parameters.i
+	@echo ... parameters.s
 	@echo ... temp.obj
 	@echo ... temp.i
 	@echo ... temp.s
